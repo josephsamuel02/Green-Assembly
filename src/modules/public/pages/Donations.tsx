@@ -14,7 +14,7 @@ const Donation = () => {
     email: "user@example.com",
     amount: TOTAL, //Amount is in the country's lowest currency. E.g Kobo, so 20000 kobo = N200
     publicKey: "pk_test_a507bd6845bb5cad347a591e06e88c6fde817cc1",
-    onSuccess: () => onSuccess,
+     
   };
 
   // you can call this function anything
@@ -55,7 +55,7 @@ const Donation = () => {
             <a
               // href={ROUTES.SIGNUP}
               onClick={() => {
-                initializePayment(onSuccess, onClose);
+                initializePayment(onSuccess);
               }}
               className=" mx-3 md:mx-0 mt-16 py-4 w-2/6 bg-green-700 text-center transition-all hover:bg-gradient-to-r from-green-500 rounded-md text-lg text-white cursor-pointer font-md"
             >
