@@ -44,13 +44,7 @@ const Donation = () => {
             Your generous donation is deeply appreciated and makes a significant impact. Thank
             you for your kindness and selflessness in giving back to those in need.
           </p>
-          <h1 className="text-xl mx-5 mt-4 md:mx-auto text-green-600 py-2 font-bold text-left">
-            Guaranty Trust Bank
-          </h1>
-          <p className="z-10 mb-3 mx-auto  text-lg">
-            Joseph Samuel Daniel. <br />
-            907308865
-          </p>
+          
           <div className="my-2 flex flex-col md:flex-row item-center ">
             <a
               // href={ROUTES.SIGNUP}
