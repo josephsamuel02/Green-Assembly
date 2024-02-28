@@ -3,7 +3,7 @@ import ROUTES from "../public.routes";
 const Manifesto = (param: { setShowForm: React.Dispatch<React.SetStateAction<boolean>> }) => {
   return (
     <>
-      <div className="mx-auto mt-52 mb-32 pt-22 pb-10 md:py-28 w-full h-96 md:h-auto flex flex-row flip-horizontal my-6 px-6 bg-AssemblyPhoto bg-cover bg-no-repeat items-center ">
+      <div className="mx-auto mt-26 mb-32 pt-22 pb-10 md:py-28 w-full h-96 md:h-auto flex flex-row flip-horizontal my-6 px-6 bg-AssemblyPhoto bg-cover bg-no-repeat items-center ">
         <div className="left w-full md:w-1/2 m-0 md:h-full flex">
           <div className="w-full h-auto md:h-11/12 m-auto p-6 rounded-lg  bg-green-800 backdrop-blur-sm bg-opacity-40">
             <p className="text-white text-lg md:text-3xl font-base leading-tight font-bold">
