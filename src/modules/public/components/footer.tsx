@@ -1,11 +1,13 @@
 import { MdCopyright } from "react-icons/md";
 import ROUTES from "../public.routes";
+import Stack from "./stack";
 const Footer = () => {
   return (
     <div
       id="footer"
-      className="max-w-full px-2  md:px-10 py-14 flex flex-col md:flex-row bg-green-800 "
+      className="max-w-full px-2  md:px-10  mt-16 py-3 flex flex-col md:flex-row bg-green-800 "
     >
+      <Stack />
       <ul className=" w-auto  md:w-2/6 mx-4 text-xl text-green-100 md:mx-auto flex flex-col px-6">
         <h3 className="text-lg font-bold py-3 text-white">Links</h3>
         <a href={"/"}>Home</a>
@@ -17,7 +19,6 @@ const Footer = () => {
           <p>Powered by Bright-Star Golden Empire</p>
         </span>
       </ul>
-
       <ul className=" w-auto  md:w-2/6 mx-4 md:mx-auto flex text-xl text-green-100  flex-col px-6">
         <h3 className=" text-lg font-bold py-3 text-white">Contacts</h3>
         <span className="py-1"> Email:greenassemblyinitiative@gmail.com</span>

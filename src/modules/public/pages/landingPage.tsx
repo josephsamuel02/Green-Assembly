@@ -19,7 +19,7 @@ const LandingPage = () => {
           <Manifesto setShowForm={setShowForm} />
           <Features />
           <About setShowForm={setShowForm} />
-          <Stack />
+
           <Footer />
         </>
       )}
