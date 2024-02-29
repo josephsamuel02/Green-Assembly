@@ -33,9 +33,9 @@ const Footer = () => {
           <span className="mx-1 ">2024 Green Assembly</span>
         </span>
         <span className="mx-1 text-sm text-green-200 underline">
-          <a href="https://joseph-samuel.netlify.app/" target="_blank">
+        {/*  <a href="https://joseph-samuel.netlify.app/" target="_blank">
             Developed by 3Angle Technologies
-          </a>
+          </a>*/}
         </span>
       </ul>
     </div>
