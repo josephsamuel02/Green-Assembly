@@ -5,10 +5,10 @@ const Nav = () => {
   const navigation = [
     { name: "Home", href: ROUTES.HOME },
     { name: "About", href: ROUTES.ABOUT },
+    { name: "Blog", href: ROUTES.BLOG },
     { name: "Gallery", href: ROUTES.GALLERY },
     { name: "Donations", href: ROUTES.DONATION },
     { name: "Contact", href: ROUTES.CONTACT },
-    // { name: "Become a member", href: ROUTES.SIGNUP },
   ];
   const [showNav, setShowNav] = useState<boolean>(false);
 
@@ -16,7 +16,7 @@ const Nav = () => {
     <section className="w-full mx-0 ">
       <nav className="w-full mx-0 z-10 py-0 fixed top-0 backdrop-blur-lg flex flex-row items-center transparent shadow-md">
         <a href={ROUTES.HOME} className="mx-2 md:mx-6 my-0  items-center">
-          <img alt=" Company Logo" className="h-20 w-auto " src="img/logo2.jpg" />
+          <img alt=" Company Logo" className="h-20 w-auto " src="/img/logo2.jpg" />
         </a>
 
         <ul className="mx-8 ml-20 py-3 hidden md:flex flex-row absolute right-0">
@@ -60,7 +60,7 @@ const Nav = () => {
           <ul className="mx-auto   py-3  backdrop-blur-lg  absolute top-20 right-0 left-0 flex flex-row bg-white  rounded  shadow-md">
             {navigation.map((item, i) => (
               <a
-                className="mx-auto px-6 py-2 tex-center text-green-700 hover:text-black text-lg   font-roboto rounded hover:bg-gradient-to-t from-green-200 transition-all "
+                className="mx-auto px-2 py-2 tex-center text-green-700 hover:text-black text-md   font-roboto rounded hover:bg-gradient-to-t from-green-200 transition-all "
                 href={`${item.href}`}
                 key={i}
                 onClick={() => setShowNav(false)}

@@ -8,6 +8,10 @@ import Donations from "./modules/public/pages/Donations";
 import Contact from "./modules/public/pages/Contact";
 import SignUp from "./modules/public/pages/SignUp";
 import Page404 from "./modules/public/pages/404_Page";
+import Blog from "./modules/public/pages/Blog";
+import Login from "./modules/admin/Auth/LogInPage";
+import BlogEditor from "./modules/admin/editor";
+
 const Router = () => {
   return (
     <>
@@ -20,7 +24,9 @@ const Router = () => {
         <Route path={ROUTES.DONATION} element={<Donations />} />
         <Route path={ROUTES.CONTACT} element={<Contact />} />
         <Route path={ROUTES.SIGNUP} element={<SignUp />} />
-
+        <Route path={ROUTES.BLOG} element={<Blog />} />
+        <Route path={`admin${ROUTES.LOGIN}`} element={<Login />} />
+        <Route path={ROUTES.EDITOR} element={<BlogEditor />} />
         <Route path={"*"} element={<Page404 />} />
       </Routes>
     </>

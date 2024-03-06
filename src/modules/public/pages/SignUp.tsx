@@ -54,20 +54,3 @@ const SignUp = () => {
 };
 
 export default SignUp;
-// <section>
-//   <Nav />
-
-//   <div className="w-full h-auto mt-22 py-40 flex flex-col items-center">
-//     <h1 className="text-6xl mx-5 md:mx-auto pb-12 text-green-600  font-bold text-left">
-//       Coming Soon...
-//     </h1>
-
-//     <img
-//       src=" img/undraw_blogging_re_kl0d.svg"
-//       alt=""
-//       className="hidden md:flex w-2/5 h-auto   "
-//     />
-//   </div>
-
-//   <Footer />
-// </section>

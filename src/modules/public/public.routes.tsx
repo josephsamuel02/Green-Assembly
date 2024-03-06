@@ -1,18 +1,17 @@
 const ROUTES = {
   HOME: "/",
-  SERVICE: "#service",
-  FEATURES: "#features",
   SIGNUP: "/signup",
   CONTACT: "contact",
 
-  GALLERY: "gallery",
-  DONATION: "donation",
-  FAQS: "#faqs",
-  TERMS: "/terms_and_condition",
+  GALLERY: "/gallery",
+  DONATION: "/donation",
+
+  BLOG: "/blog",
   ABOUT: "/about",
-  APPLY: "https://forms.gle/QghnZ27ab96ZsTM4A",
-  // APPLY: "/register_&_apply",
+  ADMIN: "/admin/login",
+  EDITOR: "/admin/editor",
   LOGIN: "/login",
+  APPLY: "https://forms.gle/QghnZ27ab96ZsTM4A",
   GET_STARTED: "/login",
   FORGET_PASSWORD: "/forget_password",
 };
