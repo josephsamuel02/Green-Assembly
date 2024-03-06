@@ -23,7 +23,7 @@ const Router = () => {
         <Route path={ROUTES.GALLERY} element={<Gallery />} />
         <Route path={ROUTES.DONATION} element={<Donations />} />
         <Route path={ROUTES.CONTACT} element={<Contact />} />
-        <Route path={`https://forms.gle/cNjC8S76LPViXcxMA`} element={<SignUp />} />
+        <Route path="https://forms.gle/PLYZyHHwBp4M8GGK9" element={<SignUp />} />
         <Route path={ROUTES.BLOG} element={<Blog />} />
         <Route path={`admin${ROUTES.LOGIN}`} element={<Login />} />
         <Route path={ROUTES.EDITOR} element={<BlogEditor />} />

@@ -46,7 +46,7 @@ const Donation = () => {
 
           <div className="my-2 flex flex-col md:flex-row item-center ">
             <a
-              // href={`https://forms.gle/cNjC8S76LPViXcxMA`}
+              // href="https://forms.gle/PLYZyHHwBp4M8GGK9"
               onClick={() => {
                 initializePayment(onSuccess);
               }}
@@ -55,7 +55,7 @@ const Donation = () => {
               Pay Online
             </a>
             {/* <a
-              // href={`https://forms.gle/cNjC8S76LPViXcxMA`}
+              // href="https://forms.gle/PLYZyHHwBp4M8GGK9"
               // onClick={() => setShowForm(true)}
               className=" mx-3 md:mx-auto mt-16 py-4 w-2/6 bg-green-700 text-center transition-all hover:bg-gradient-to-r from-green-500 rounded-lg text-lg text-white cursor-pointer font-md"
             >

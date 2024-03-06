@@ -20,7 +20,7 @@ const Manifesto = (param: { setShowForm: React.Dispatch<React.SetStateAction<boo
         {/* <div className="hidden md:flex right w-0 md:w-1/2 m-auto h-auto item-right "></div> */}
       </div>
       <a
-        href={`https://forms.gle/cNjC8S76LPViXcxMA`}
+        href="https://forms.gle/PLYZyHHwBp4M8GGK9"
         // onClick={() => setShowForm(true)}
         className=" mx-6 mt-3 py-4 px-12 bg-green-700  transition-all hover:bg-gradient-to-r from-green-400 rounded-md text-2xl text-white  font-md"
       >
