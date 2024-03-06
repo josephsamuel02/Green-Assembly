@@ -14,7 +14,6 @@ const Donation = () => {
     email: "user@example.com",
     amount: TOTAL, //Amount is in the country's lowest currency. E.g Kobo, so 20000 kobo = N200
     publicKey: "pk_test_a507bd6845bb5cad347a591e06e88c6fde817cc1",
-     
   };
 
   // you can call this function anything
@@ -44,10 +43,10 @@ const Donation = () => {
             Your generous donation is deeply appreciated and makes a significant impact. Thank
             you for your kindness and selflessness in giving back to those in need.
           </p>
-          
+
           <div className="my-2 flex flex-col md:flex-row item-center ">
             <a
-              // href={ROUTES.SIGNUP}
+              // href={`https://forms.gle/cNjC8S76LPViXcxMA`}
               onClick={() => {
                 initializePayment(onSuccess);
               }}
@@ -56,7 +55,7 @@ const Donation = () => {
               Pay Online
             </a>
             {/* <a
-              // href={ROUTES.SIGNUP}
+              // href={`https://forms.gle/cNjC8S76LPViXcxMA`}
               // onClick={() => setShowForm(true)}
               className=" mx-3 md:mx-auto mt-16 py-4 w-2/6 bg-green-700 text-center transition-all hover:bg-gradient-to-r from-green-500 rounded-lg text-lg text-white cursor-pointer font-md"
             >

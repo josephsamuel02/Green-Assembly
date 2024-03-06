@@ -7,8 +7,8 @@ const Nav = () => {
     { name: "About", href: ROUTES.ABOUT },
     { name: "Blog", href: ROUTES.BLOG },
     { name: "Gallery", href: ROUTES.GALLERY },
-    { name: "Donations", href: ROUTES.DONATION },
-    { name: "Contact", href: ROUTES.CONTACT },
+    // { name: "Donations", href: ROUTES.DONATION },
+    // { name: "Contact", href: ROUTES.CONTACT },
   ];
   const [showNav, setShowNav] = useState<boolean>(false);
 
@@ -30,7 +30,7 @@ const Nav = () => {
             </a>
           ))}
           <a
-            href={ROUTES.SIGNUP}
+            href={`https://forms.gle/oip1u6F2NvXPLAaS9`}
             className=" mx-1 px-3 py-2 text-md text-white font-md bg-green-700  transition-all hover:bg-gradient-to-r from-green-500 rounded-md "
           >
             Become a member

@@ -19,7 +19,7 @@ const Blog = () => {
     fetchPost();
   }, []);
   return (
-    <div className="w-full h-auto pt-28   flex flex-col bg-green-100">
+    <div className="w-full h-auto pt-28   flex flex-col bg-green-50">
       <div className=" mx-auto p-10 w-4/5 md:w-3/6  rounded-md flex flex-col bg-white">
         {blogPost[page] && <div dangerouslySetInnerHTML={{ __html: blogPost[page].todo }} />}
       </div>

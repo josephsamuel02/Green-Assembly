@@ -5,24 +5,34 @@ const Footer = () => {
   return (
     <div
       id="footer"
-      className="max-w-full px-2  md:px-10  mt-16 py-3 flex flex-col md:flex-row bg-green-800 "
+      className="mx-0 w-full px-2  md:px-5  mt-16 py-3 flex flex-col md:flex-row bg-green-800 "
     >
       <Stack />
-      <ul className=" w-auto  md:w-2/6 mx-4 text-xl text-green-100 md:mx-auto flex flex-col px-6">
-        <h3 className="text-lg font-bold py-3 text-white">Links</h3>
-        <a href={"/"}>Home</a>
-        <a href={ROUTES.ABOUT}>About</a>
-        <a href={ROUTES.DONATION}>Donations </a>
-        <a href={ROUTES.GALLERY}>Gallery </a>
-        <a href={ROUTES.BLOG}>Blog </a>
-        <a href={ROUTES.ADMIN}>Admin </a>
+      <ul className=" w-full  md:w-2/6 mx-4 text-xl text-green-100 md:mx-auto flex flex-col px-4">
+        <h3 className="text-lg font-thin py-3 text-white">Links</h3>
+        <a className="py-1 font-thin " href={"/"}>
+          Home
+        </a>
+        <a className="py-1 font-thin " href={ROUTES.ABOUT}>
+          About
+        </a>
+        <a className="py-1 font-thin " href={ROUTES.GALLERY}>
+          Gallery{" "}
+        </a>
+        <a className="py-1 font-thin " href={ROUTES.BLOG}>
+          Blog{" "}
+        </a>
+        <a className="py-1 font-thin " href={ROUTES.ADMIN}>
+          Admin{" "}
+        </a>
         <br /> <br /> <br /> <br /> <br /> <br />
       </ul>
-      <ul className=" w-auto  md:w-2/6 mx-4 md:mx-auto flex text-xl text-green-100  flex-col px-6">
-        <h3 className=" text-lg font-bold py-3 text-white">Contacts</h3>
-        <span className="py-1"> Email:greenassemblyinitiative@gmail.com</span>
-        <span className="py-1"> Phone: +2347064391614</span>
-        <span className="py-1">
+
+      <ul className="mx-auto w-full  text-xl md:w-2/6 flex flex-col px-4 text-green-100  ">
+        <h3 className=" text-lg font-thin py-3 text-white">Contacts</h3>
+        <span className="py-1 font-thin "> Email:greenassemblyinitiative@gmail.com</span>
+        <span className="py-1 font-thin "> Phone: +2347064391614</span>
+        <span className="py-1 font-thin ">
           Office Address: Suit CB11, Apo shopping plaza, near living faith
           church, Durumi, Abuja
         </span>
@@ -31,11 +41,6 @@ const Footer = () => {
           <MdCopyright size={22} />
           <span className="mx-1 ">2024 Green Assembly</span>
         </span>
-        {/* <span className="mx-1 text-sm text-green-200 underline">
-          <a href="https://joseph-samuel.netlify.app/" target="_blank">
-            Developed by 3Angle Technologies
-          </a>
-        </span> */}
       </ul>
     </div>
   );

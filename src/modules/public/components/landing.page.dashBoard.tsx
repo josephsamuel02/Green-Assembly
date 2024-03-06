@@ -30,7 +30,7 @@ const LandingPageDashBoard = (param: {
             </p>
 
             <a
-              href={ROUTES.SIGNUP}
+              href={`https://forms.gle/cNjC8S76LPViXcxMA`}
               // onClick={() => setShowForm(true)}
               className=" mx-3 md:mx-4 mt-16 py-4 px-16 bg-green-700 transition-all hover:bg-gradient-to-r from-green-500 rounded-md text-2xl text-white  font-md"
             >
