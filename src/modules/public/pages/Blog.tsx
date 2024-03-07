@@ -4,7 +4,7 @@ import ROUTES from "../public.routes";
 import { collection, getDocs } from "firebase/firestore";
 import { useState, useEffect } from "react";
 const Blog = () => {
-  const [blogPost, setBlogPost] = useState([]);
+  const [blogPost, setBlogPost] = useState<any>([]);
   const [page, setPage] = useState(1);
 
   const fetchPost = async () => {
