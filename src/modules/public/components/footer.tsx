@@ -26,8 +26,8 @@ const Footer = () => {
           Admin{" "}
         </a>
         
-
-
+  <br/> <br/>
+ <br/>
       </ul>
 
       <ul className="mx-auto w-full  text-xl md:w-2/6 flex flex-col px-4 text-green-100  ">
