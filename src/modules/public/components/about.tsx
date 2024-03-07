@@ -29,7 +29,6 @@ const About = (param: { setShowForm: React.Dispatch<React.SetStateAction<boolean
       </div>
       <a
         href="https://forms.gle/PLYZyHHwBp4M8GGK9"
-        // onClick={() => setShowForm(true)}
         className="mx-auto ml-10 mt-72 w-auto md:w-56 text-center py-3 px-16 bg-green-700 transition-all hover:bg-gradient-to-r from-green-500 rounded text-xl text-white  font-md cursor-pointer"
       >
         Join Us
