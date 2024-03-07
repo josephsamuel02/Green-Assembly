@@ -25,8 +25,8 @@ const Footer = () => {
         <a className="py-1 font-thin " href={ROUTES.ADMIN}>
           Admin{" "}
         </a>
-        <br /> <br /> <br /> <br /> <br /> <br />
- <span className="py-1 font-thin color-white text-sm"> Powered by Bright-Star Golden Empire</span>
+        
+
 
       </ul>
 
@@ -41,7 +41,7 @@ const Footer = () => {
         <br /> <br /> <br />
         <span className="mx-1 text-base flex flex-row items-center ">
           <MdCopyright size={22} />
-          <span className="mx-1 ">2024 Green Assembly</span>
+          <span className="mx-1 ">2024 Green Assembly</span> <span className="py-1 font-thin color-white text-sm"> Powered by Bright-Star Golden Empire</span>
         </span>
       </ul>
     </div>
