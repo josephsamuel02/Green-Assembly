@@ -5,7 +5,7 @@ import { collection, getDocs } from "firebase/firestore";
 import { useState, useEffect } from "react";
 const Blog = () => {
   const [blogPost, setBlogPost] = useState<any>([]);
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState<any>(1);
 
   const fetchPost = async () => {
     await getDocs(collection(db, "blogpost")).then((querySnapshot) => {
@@ -34,7 +34,7 @@ const Blog = () => {
           prev
         </li>
         {blogPost[0] &&
-          blogPost.map((i: any, n) => (
+          blogPost.map((i: any, n: any) => (
             <li
               className="mx-auto tex-base px-0 py-1 text-slate-700 border-2 rounded-sm border-slate-300 list-none cursor-pointer"
               onClick={() => setPage(n)}
