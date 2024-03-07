@@ -26,6 +26,8 @@ const Footer = () => {
           Admin{" "}
         </a>
         <br /> <br /> <br /> <br /> <br /> <br />
+ <span className="py-1 font-thin color-white text-sm"> Powered by Bright-Star Golden Empire</span>
+
       </ul>
 
       <ul className="mx-auto w-full  text-xl md:w-2/6 flex flex-col px-4 text-green-100  ">
