@@ -18,7 +18,6 @@ const BlogEditor = () => {
           todo: value,
         });
         if (!docRef) {
-          console.log("unable to post document", docRef.id);
           alert("Unable to upload blog post");
         }
         setShowCard(true);

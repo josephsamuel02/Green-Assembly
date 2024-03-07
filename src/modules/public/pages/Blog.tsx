@@ -11,7 +11,6 @@ const Blog = () => {
     await getDocs(collection(db, "blogpost")).then((querySnapshot) => {
       const newData: any = querySnapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id }));
       setBlogPost(newData);
-      console.log(newData);
     });
   };
 
