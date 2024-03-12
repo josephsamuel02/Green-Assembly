@@ -12,13 +12,15 @@ const Login = () => {
   const getData = async (e: any) => {
     e.preventDefault();
 
-    await getDocs(collection(db, "blogpost"))
+    await getDocs(collection(db, "Auth"))
       .then((querySnapshot: any) => {
         querySnapshot.forEach((doc: { id: any; data: () => any }) => {
           if (doc.id == user && doc.data().password == pass) {
             localStorage.setItem("greentoken", pass);
             window.location.replace(ROUTES.EDITOR);
           }
+
+          alert(" INVALID CREDENTIALS");
         });
       })
       .catch((error: any) => {
