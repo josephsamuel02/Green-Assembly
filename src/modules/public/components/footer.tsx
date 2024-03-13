@@ -30,8 +30,13 @@ const Footer = () => {
       </ul>
 
       <ul className="mx-auto w-full  text-xl md:w-2/6 flex flex-col px-4 text-green-100  ">
+<<<<<<< HEAD
         <h3 className=" text-lg font-bold py-3 text-white">Contacts</h3>
         <span className="py-1 font-thin "> Email:Info@greenassemblyinitiate.com.ng </span>
+=======
+        <h3 className=" text-lg font-thin py-3 text-white">Contacts</h3>
+        <span className="py-1 font-thin "> Email:Info@greenassemblyinitiate.com.ng</span>
+>>>>>>> c832c0dea33f6c028e1350cda75d30084461a1ec
         <span className="py-1 font-thin "> Phone: +2347064391614</span>
         <span className="py-1 font-thin ">
           Office Address: Suit CB11, Apo shopping plaza, near living faith
