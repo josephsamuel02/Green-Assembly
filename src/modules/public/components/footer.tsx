@@ -29,7 +29,7 @@ const Footer = () => {
         <br />
       </ul>
 
-      <ul className="mx-auto w-full  text-xl md:w-2/6 flex flex-col px-4 text-green-100  ">
+      <ul className="mx-auto w-full  text-xl md:w-2/6 flex flex-col px-4 text-green-100 ">
         <h3 className=" text-lg font-bold py-3 text-white">Contacts</h3>
         <span className="py-1 font-thin "> Email:Info@greenassemblyinitiate.com.ng </span>
         <span className="py-1 font-thin "> Phone: +2347064391614</span>
