@@ -32,7 +32,7 @@ const Footer = () => {
 
       <ul className="mx-auto w-full  text-xl md:w-2/6 flex flex-col px-4 text-green-100  ">
         <h3 className=" text-lg font-thin py-3 text-white">Contacts</h3>
-        <span className="py-1 font-thin "> Email:greenassemblyinitiative@gmail.com</span>
+        <span className="py-1 font-thin "> Email:Info@greenassemblyinitiate.com.ng</span>
         <span className="py-1 font-thin "> Phone: +2347064391614</span>
         <span className="py-1 font-thin ">
           Office Address: Suit CB11, Apo shopping plaza, near living faith
