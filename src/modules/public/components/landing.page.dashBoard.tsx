@@ -18,7 +18,7 @@ const LandingPageDashBoard = (param: {
             <h1 className=" h-28 pl-2 text-green-700 m-0 mt-3 md:mt-0 font-bold   text-left  text-4xl md:text-5xl">
               <Typewriter
                 options={{
-                  strings: [" Advocates for Human Rights and Social Stability."],
+                  strings: ["Advocates for Human Rights and Social Stability."],
                   autoStart: true,
                   loop: true,
                 }}

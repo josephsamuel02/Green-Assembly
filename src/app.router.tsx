@@ -11,6 +11,7 @@ import Page404 from "./modules/public/pages/404_Page";
 import Blog from "./modules/public/pages/Blog";
 import Login from "./modules/admin/Auth/LogInPage";
 import BlogEditor from "./modules/admin/editor";
+import UploadImage from "./modules/admin/UploadImage";
 
 const Router = () => {
   return (
@@ -23,10 +24,12 @@ const Router = () => {
         <Route path={ROUTES.GALLERY} element={<Gallery />} />
         <Route path={ROUTES.DONATION} element={<Donations />} />
         <Route path={ROUTES.CONTACT} element={<Contact />} />
-       
+
         <Route path={ROUTES.BLOG} element={<Blog />} />
         <Route path={`admin${ROUTES.LOGIN}`} element={<Login />} />
         <Route path={ROUTES.EDITOR} element={<BlogEditor />} />
+        <Route path={ROUTES.UPLOADIMAGE} element={<UploadImage />} />
+
         <Route path={"*"} element={<Page404 />} />
       </Routes>
     </>

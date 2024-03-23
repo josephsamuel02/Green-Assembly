@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { db } from "../../db/firebase";
 import Footer from "../../public/components/footer";
-import Nav from "../../public/components/nav";
 import ROUTES from "../../public/public.routes";
 import { collection, getDocs } from "firebase/firestore";
 
@@ -15,12 +14,12 @@ const Login = () => {
     await getDocs(collection(db, "Auth"))
       .then((querySnapshot: any) => {
         querySnapshot.forEach((doc: { id: any; data: () => any }) => {
-          if (doc.id == user && doc.data().password == pass) {
+          if (doc.data().password == pass) {
             localStorage.setItem("greentoken", pass);
             window.location.replace(ROUTES.EDITOR);
+          } else {
+            alert("INVALID CREDENTIALS");
           }
-
-          alert(" INVALID CREDENTIALS");
         });
       })
       .catch((error: any) => {

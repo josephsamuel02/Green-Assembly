@@ -6,6 +6,8 @@ import { db } from "../db/firebase";
 import SuccessCard from "./successCard";
 import Footer from "../public/components/footer";
 import ROUTES from "../public/public.routes";
+import AdminNav from "./AdminNav";
+
 const BlogEditor = () => {
   const [value, setValue] = useState("");
   const [showCard, setShowCard] = useState(false);
@@ -46,6 +48,7 @@ const BlogEditor = () => {
   };
   const handleEditorChange = (value: any) => {
     setValue(value);
+    const diff = value.substr(value.length);
   };
 
   useEffect(() => {
@@ -57,6 +60,7 @@ const BlogEditor = () => {
 
   return (
     <div className="w-full h-auto">
+      <AdminNav />
       <div className="w-full h-full mt-28 flex flex-col md:flex-row items-center">
         <div className="mx-1 py-5 md:px-4  mb-16 h-full w-11/12 md:w-2/4 flex flex-col rounded shadow-lg  ">
           <ReactQuill
