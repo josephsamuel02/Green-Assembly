@@ -3,8 +3,8 @@ import ROUTES from "../public/public.routes";
 
 const AdminNav = () => {
   const navigation = [
-    { name: "Editor", href: ROUTES.EDITOR },
-    { name: "Uploads", href: ROUTES.UPLOADIMAGE },
+    { name: "Blog post", href: ROUTES.EDITOR },
+    { name: "Upload", href: ROUTES.UPLOADIMAGE },
   ];
   const [showNav, setShowNav] = useState<boolean>(false);
 
