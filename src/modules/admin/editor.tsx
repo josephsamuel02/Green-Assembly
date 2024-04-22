@@ -11,6 +11,8 @@ import AdminNav from "./AdminNav";
 const BlogEditor = () => {
   const [value, setValue] = useState("");
   const [showCard, setShowCard] = useState(false);
+
+  
   const BlogPost = async (e: any) => {
     e.preventDefault();
 
@@ -67,7 +69,7 @@ const BlogEditor = () => {
             value={value}
             onChange={(value: any) => handleEditorChange(value)}
             modules={modules}
-            className="w-full h-full my-0 "
+            className="w-full h-full my-0"
           />
           {value.length > 30 && (
             <a

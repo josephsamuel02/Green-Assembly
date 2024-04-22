@@ -4,7 +4,7 @@ const URLS = {
   EMAIL:
     "mailto:mrsamd02@gmail.com?subject=Request%20For%20Development%20Service&body=message...",
   WHATSAPP: "https://api.whatsapp.com/send?phone=2347064391614",
-  CALL: "tel:2349073077717",
+  CALL: "tel:2347064391614",
   FREELANCER: "",
   FACEBOOK: "",
   TWITTER: "",
